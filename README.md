@@ -1,4 +1,4 @@
-https://github.com/thinkful-ei-tiger/johnathan-fludd-bookmark-app
+https://github.com/JohnathanFludd/j-fludd-bookmark-app
 
 Johnathan-fludd-bookmark-app-2.0
 I can add bookmarks to my bookmark list. Bookmarks contain:
@@ -20,5 +20,5 @@ I receive appropriate feedback when I cannot submit a bookmark
 I can filter bookmarks by all or individually by star rating
 
 
-https://thinkful-ei-tiger.github.io/johnathan-fludd-bookmark-app/
+https://johnathanfludd.github.io/j-fludd-bookmark-app/
 
