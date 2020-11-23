@@ -1,6 +1,6 @@
-import $ from 'jquery';
-import api from './api';
-import templates from './templates';
+// import $ from 'jquery';
+import api from './api.js';
+import templates from './templates.js';
 
 let template, bookmark, _bookMarkList, idBookmark, postBody;   
 
@@ -32,6 +32,7 @@ function getBookmarksList(filter = false, rating = false) {
 
 
 $(function() {
+    console.log("hello world")
     getBookmarksList();        
 
     $('main').on('click', '#add-bookmark', function() {
