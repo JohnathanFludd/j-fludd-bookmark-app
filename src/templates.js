@@ -16,6 +16,24 @@ function bookmarkListSection()
     </div>`
 }
 
+
+function bookmarksList(bookmarks, filter, rating ) {
+    let _bookMarkList = '';
+    if (bookmarks.length > 0) {
+        for (const bookmark of bookmarks) {
+            console.log(bookmark,rating)
+            if (filter && bookmark.rating < Number(rating) && rating != '') continue;
+            _bookMarkList += '<li data-idBookmark="' + bookmark.id + '">' + bookmark.title + '<span class="bookmark-rating">' + bookmark.rating + '  ★</span><div class="details"><p>' +
+                bookmark.rating + ' ★</p><p>' +
+                bookmark.desc + '</p><button class="deleteBookmark">Delete</button></div></li>';
+        }
+       return _bookMarkList
+    } else
+        return '<li>No bookmarks saved yet!</li>';
+}
+
+
+
 function addBookmarkSection() 
 {
     return `<div id="add-bookmark-section">
@@ -61,5 +79,6 @@ function addBookmarkSection()
 
 export default {
     bookmarkListSection,
-    addBookmarkSection
+    addBookmarkSection,
+    bookmarksList
 }
