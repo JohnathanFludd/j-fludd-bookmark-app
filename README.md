@@ -20,5 +20,5 @@ I receive appropriate feedback when I cannot submit a bookmark
 I can filter bookmarks by all or individually by star rating
 
 
-https://johnathanfludd.github.io/j-fludd-bookmark-app/src/
+https://johnathanfludd.github.io/j-fludd-bookmark-app/
 
